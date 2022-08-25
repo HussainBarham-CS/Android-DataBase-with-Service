@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151E4E"
+    tools:context=".sacend" >
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="500dp"
+        android:fontFamily="casual"
+        android:text="DataBase"
+        android:textColor="#FFFFFF"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197" />
+
+    <Button
+        android:id="@+id/haha"
+        style="@android:style/Widget.Holo.Light.Button.Inset"
+        android:layout_width="191dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="casual"
+        android:text="Delete"
+        android:textColor="#E91E63"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insert" />
+
+    <Button
+        android:id="@+id/insert"
+        style="@android:style/Widget.Holo.Light.Button.Inset"
+        android:layout_width="193dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="casual"
+        android:text="Insert"
+        android:textColor="#E91E63"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/haha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/show"
+        style="@android:style/Widget.Holo.Light.Button.Inset"
+        android:layout_width="192dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="casual"
+        android:text="Show"
+        android:textColor="#E91E63"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search" />
+
+    <Button
+        android:id="@+id/search"
+        style="@android:style/Widget.Holo.Light.Button.Inset"
+        android:layout_width="190dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="casual"
+        android:text="Search"
+        android:textColor="#E91E63"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/change" />
+
+    <Button
+        android:id="@+id/change"
+        style="@android:style/Widget.Holo.Light.Button.Inset"
+        android:layout_width="191dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="29dp"
+        android:fontFamily="casual"
+        android:text="modify"
+        android:textColor="#E91E63"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/haha" />
+</androidx.constraintlayout.widget.ConstraintLayout>
